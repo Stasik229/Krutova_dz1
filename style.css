@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.zagolovok {
+    text-align: center;
+    font-family: fonth1;
+    color: darkslateblue;
+}
+
+ul {
+    list-style-image: url(images/heart.svg);
+    font-size: 30px;
+    line-height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: fonta1;
+}
+
+a:hover {
+    color: darkslategray;
+    font-size: 35px;
+}
+
+.nazad {
+    font-family: fonth1;
+    color: darkslateblue;
+    font-size: 40px;
+}
+
+.nazad:hover {
+    font-size: 40px;
+}
+
+
+@font-face {
+    font-family: fonta1;
+    src: url(fonts/Cormorant-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: fonth1;
+    src: url(fonts/futurespore-cyrillic.otf);
+}
